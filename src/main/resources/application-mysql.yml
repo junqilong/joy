@@ -3,13 +3,9 @@ spring:
         #schema: classpath*:scripts/schema.sql
         #continue-on-error: false
         #sql-script-encoding: utf-8
-        driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://39.108.184.215/db_mblog?useSSL=false&characterEncoding=utf8&serverTimezone=GMT%2B8
-        username: mblog
-        password: mblog_123
-#        url: jdbc:mysql://10.128.208.160/db_mblog?useSSL=false&characterEncoding=utf8&serverTimezone=GMT%2B8
-#        username: root
-#        password: tclonline
+        url: jdbc:mysql://10.128.208.160/db_mblog?useSSL=false&characterEncoding=utf8&serverTimezone=GMT%2B8
+        username: root
+        password: tclonline
     flyway:
         enabled: true
     jpa:
